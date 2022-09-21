@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0ED6AC28D8BAE00010052E /* CreditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0ED6AB28D8BAE00010052E /* CreditViewController.swift */; };
 		9A3EB4EB28CF520100818B6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EB4EA28CF520100818B6E /* AppDelegate.swift */; };
 		9A3EB4ED28CF520100818B6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EB4EC28CF520100818B6E /* SceneDelegate.swift */; };
 		9A3EB4EF28CF520100818B6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3EB4EE28CF520100818B6E /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A0ED6AB28D8BAE00010052E /* CreditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditViewController.swift; sourceTree = "<group>"; };
 		9A3EB4E728CF520100818B6E /* UpDownGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpDownGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3EB4EA28CF520100818B6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A3EB4EC28CF520100818B6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		9A3EB4E928CF520100818B6E /* UpDownGame */ = {
 			isa = PBXGroup;
 			children = (
+				9A0ED6AB28D8BAE00010052E /* CreditViewController.swift */,
 				9A3EB4EA28CF520100818B6E /* AppDelegate.swift */,
 				9A3EB4EC28CF520100818B6E /* SceneDelegate.swift */,
 				9A3EB4EE28CF520100818B6E /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				9A3EB4EF28CF520100818B6E /* ViewController.swift in Sources */,
 				9A3EB4EB28CF520100818B6E /* AppDelegate.swift in Sources */,
 				9A3EB4ED28CF520100818B6E /* SceneDelegate.swift in Sources */,
+				9A0ED6AC28D8BAE00010052E /* CreditViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +324,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
