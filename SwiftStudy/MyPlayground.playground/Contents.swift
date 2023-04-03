@@ -65,3 +65,23 @@ enum SchoolDetail {
 let yourMiddleSchoolName = SchoolDetail.middle(name: "Geomam")
 print(yourMiddleSchoolName) // middle(name: "Geomam") 으로 출력
 print(yourMiddleSchoolName.get()) // Geomam 으로 출력
+
+// 4. for 반복문 표현
+
+for i in 0...5 {
+    print(i)
+}
+for i in 0..<5 {
+    print(i)
+}
+for i in 0...5 where i % 2 == 0 {
+    print(i)
+}
+
+var randomInts:[Int] = []
+
+for _ in 0..<25 { //만약 i와 같은 변수를 지정해주지 않으려면, _ 사용
+    let randomNumber = Int.random(in: 0...100)
+    randomInts.append(randomNumber)
+}
+print(randomInts)
