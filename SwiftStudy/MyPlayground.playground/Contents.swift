@@ -85,3 +85,34 @@ for _ in 0..<25 { //만약 i와 같은 변수를 지정해주지 않으려면, _
     randomInts.append(randomNumber)
 }
 print(randomInts)
+
+// 5. Optional 변수 언랩핑
+
+var someVariable :Int?
+
+if someVariable == nil {
+    someVariable = 90
+}
+if let otherVariable = someVariable {
+    print("값 존재 : \(otherVariable)")
+}
+else {
+    print("값 존재하지 않음")
+}
+someVariable = nil
+
+let myValue = someVariable ?? 10
+print(myValue)
+
+var emptyVariable : Int?
+
+
+myFunction(parameter: myValue)
+myFunction(parameter: emptyVariable)
+
+func myFunction(parameter: Int?) {
+    guard let unWrappedParam = parameter else {
+        return
+    }
+    print(unWrappedParam)
+}
