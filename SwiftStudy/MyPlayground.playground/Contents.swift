@@ -116,3 +116,35 @@ func myFunction(parameter: Int?) {
     }
     print(unWrappedParam)
 }
+
+// 6. Class 와 Struct의 차이
+struct YoutuberStruct {
+    var name : String
+    var subscribersCount : Int
+}
+var devJeong = YoutuberStruct(name: "jeongDaeRi", subscribersCount: 99999)
+var devClone = devJeong
+
+print(devClone.name)
+devClone.name = "hoho"
+
+print(devJeong.name)    // devClone은 devJeong의 데이터를 복사하여 가져온 것이므로, devJeong의 값은 변하지 않음.
+print(devClone.name)
+
+class Youtuber {
+    var name : String
+    var subscribersCount : Int
+    
+    init(name : String , subscribersCount : Int) {
+        self.name = name
+        self.subscribersCount = subscribersCount
+    }
+}
+
+var jeongDaeRi = Youtuber(name: "jeongDaeRi", subscribersCount: 9999999)
+var me = jeongDaeRi
+print(me.name)
+
+me.name = "Jang"
+print(me.name)
+print(jeongDaeRi.name)      // me는 struct와 달리 값을 변경하면, jeongDaeRi도 변경이 된다.
