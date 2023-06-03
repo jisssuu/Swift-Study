@@ -50,20 +50,25 @@ import Foundation
 
 // 1010번
 
-func factorial(num:Double) -> Double {
-    if num == 0 {
-        return 1
-    }
-    return num * factorial(num: num - 1)
-}
-let n = Int(readLine()!)!
-var array : [Int] = []
-for _ in 0..<n {
-    let input = readLine()!.split(separator: " ").map{Double($0)!}.sorted()
-    let n = input[1]
-    let r = input[0]
-    
-    let result = factorial(num: n) / (factorial(num: r) * factorial(num: n-r))
-    array.append(Int(round(result)))
-}
-print(array)
+//var array = Array(repeating: Array(repeating: 0, count: 31), count: 31)
+//var result : [Int] = []
+//for i in 0...30 {
+//    for j in 0...i {
+//        if i == j || j == 0 {
+//            array[i][j] = 1
+//        }
+//        else {
+//            array[i][j] = array[i-1][j-1] + array[i-1][j]
+//        }
+//    }
+//}
+//
+//let n = Int(readLine()!)!
+//
+//for _ in 0..<n {
+//    let input = readLine()!.split(separator: " ").map{Int($0)!}
+//    let k = input[0]
+//    let t = input[1]
+//    result.append(array[t][k])
+//}
+//result.forEach{print($0)}
